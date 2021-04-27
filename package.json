@@ -1,0 +1,29 @@
+{
+  "name": "icloud-signin",
+  "version": "1.0.0",
+  "description": "iCloud auth",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quaringonzalo/icloud-sigIn.git"
+  },
+  "author": "quaringonzalo@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quaringonzalo/icloud-sigIn/issues"
+  },
+  "homepage": "https://github.com/quaringonzalo/icloud-sigIn#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "querystring": "^0.2.0"
+  }
+}
